@@ -4,43 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7e6368bcc1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div style="width: 300px; margin:0 auto; border: 1px solid #ccc; padding: 20px;">
-        <h1>Hi Welcome to my hut</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In explicabo necessitatibus minus vel provident dolor quaerat ipsam minima sequi repudiandae, a ad et, tenetur recusandae tempore quisquam nihil, eaque aspernatur!</p>
-        <button style="background-color: solid grey; height: 30px; border-radius: 10px;" type="button" >contact</button><br>
-        <a href="#">download cv</a>
-        <i class="fa-solid fa-download"></i><br>
-        <table style="width: 50%; margin: 0 auto;">
-            <th>
-                <i class="fa-brands fa-linkedin"></i>
-            </th>
-            <th>
-                <i class="fa-brands fa-facebook" ></i>
-            </th>
-            <th>
-                <i class="fa-brands fa-instagram"></i>
-            </th>
-            <th>
-                <i class="fa-brands fa-twitter"></i>
-            </th>
-        </table>
-        <table style="box-shadow: 10px 10px;">
-            <tr >
-                <img src="foto.jpg" alt="Image" style="width:100%; border-radius: 10px; box-shadow: 5px 3px 5px 10px;">
-                <P style="text-align: center; font-size: 20px;"><b>Fandi Muhammad Fajar</b></P>
-                <P style="text-align: center; font-size: 18px;">Fullstack Development </P>
-            </tr>
-        </table>
-          
-            
-        
+     <!-- navbar -->
+     <nav class="navbar">
+        <ul class="navbar-ul" >
+            <div style="display: flex; gap: 20px;">
+                <li>
+                    <img src="assets/brandred.png" class="navbar-logo"/>
+                </li>
+                <li>
+                    <a href="index.html" class="navbar-link" > Home</a>
+                </li>
+                <li>
+                    <a href="#" class="navbar-link"> My Project</a>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <a href="contact.html" class="navbar-contact-btn"> Contact Me </a>
+                </li>
+            </div>
+        </ul>
+    </nav>
 
-   
+    <!-- Home -->
+    <div class="container">
+        <div class="card">
+            <h2>Hi Welcome to my hut</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, atque excepturi dolores iste ducimus aliquam debitis modi porro alias dolorem, nulla ea amet fugiat voluptatem. Dolore consequuntur odio, quos quibusdam ipsa optio neque eum aspernatur quo non nulla quia reiciendis vero consequatur perspiciatis dolorem velit. Asperiores voluptas quae neque! Dolorum, fugiat! Temporibus ratione cumque expedita, harum voluptatum nihil! Beatae, omnis error vero vitae molestias sequi veritatis ipsa dolore. Dicta eos velit placeat totam similique, ratione hic itaque! Architecto voluptatem consequatur officiis aperiam quia consectetur esse facere porro error tempore, aliquid quaerat, magni ex eligendi libero commodi doloribus vero? Fuga, minus.</p>
+            <a href="contact.html"><button>contact</button></a>
+        <div class="cv">
+           <a href="">Dowload CV <i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="icon">
+           <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+           <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+           <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>   
+        </div>
+        <div class="card">
+        <div class="profil">
+            <img src="assets/foto.jpg" alt="profil">
+            <h2>Fandi Muhammad Fajar</h2>
+            <p>Fullstack Developer</p>
+        </div>   
+        </div>
     </div>
-        
-
 </body>
 </html>
