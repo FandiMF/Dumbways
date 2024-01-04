@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #f4f3f3;
+    padding: 20px;
+}
+
+.navbar-ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black
+}
+
+.active {
+    color:;
+}
+
+.navbar-logo {
+    width: 50px;
+}
+
+.navbar-contact-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+}
+
+.contact-div{
+    display: flex ;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.judul{
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+
